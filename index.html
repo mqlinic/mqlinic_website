@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MQlinic - 顶尖医疗管家</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>MQlinic</h2>
+            </div>
+            
+            <div class="nav-menu">
+                <a href="#home" class="nav-link" data-zh="首页" data-zh-tw="首頁" data-en="Home">首页</a>
+                <a href="#services" class="nav-link" data-zh="服务" data-zh-tw="服務" data-en="Services">服务</a>
+                <a href="#about" class="nav-link" data-zh="关于我们" data-zh-tw="關於我們" data-en="About">关于我们</a>
+                <a href="#contact" class="nav-link" data-zh="联系" data-zh-tw="聯絡" data-en="Contact">联系</a>
+            </div>
+            
+            <div class="nav-actions">
+                <div class="language-switcher">
+                    <select id="language-select">
+                        <option value="zh">简体中文</option>
+                        <option value="zh-tw">繁體中文</option>
+                        <option value="en">English</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title" data-zh="专业医疗管家服务" data-zh-tw="專業醫療管家服務" data-en="Professional Medical Concierge Services">
+                    专业医疗管家服务
+                </h1>
+                <p class="hero-subtitle" data-zh="连接全球顶尖医疗资源，为您提供安全、专业、高效的生命通道" data-zh-tw="連接全球頂尖醫療資源，為您提供安全、專業、高效的生命通道" data-en="Connecting global top-tier medical resources, providing safe, professional, and efficient healthcare access">
+                    连接全球顶尖医疗资源，为您提供安全、专业、高效的生命通道
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary btn-large" data-zh="开始使用" data-zh-tw="開始使用" data-en="Get Started">开始使用</button>
+                    <button class="btn btn-outline btn-large" data-zh="了解更多" data-zh-tw="了解更多" data-en="Learn More">了解更多</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-placeholder">
+                    <i class="fas fa-heartbeat"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="statistics">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">8+</div>
+                    <div class="stat-label" data-zh="年稳健运营" data-zh-tw="年穩健運營" data-en="Years of Stable Operation">年稳健运营</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label" data-zh="医疗专家团队" data-zh-tw="醫療專家團隊" data-en="Medical Expert Team">医疗专家团队</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">1000+</div>
+                    <div class="stat-label" data-zh="月度咨询人次" data-zh-tw="月度諮詢人次" data-en="Monthly Consultations">月度咨询人次</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label" data-zh="客户满意度" data-zh-tw="客戶滿意度" data-en="Client Satisfaction">客户满意度</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-zh="我们的服务" data-zh-tw="我們的服務" data-en="Our Services">我们的服务</h2>
+                <p class="section-subtitle" data-zh="提供全方位的医疗管家服务，确保您的健康得到最好的保障" data-zh-tw="提供全方位的醫療管家服務，確保您的健康得到最好的保障" data-en="Comprehensive medical concierge services to ensure your health receives best protection">
+                    提供全方位的医疗管家服务，确保您的健康得到最好的保障
+                </p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3 class="service-title" data-zh="专业医疗陪诊" data-zh-tw="專業醫療陪診" data-en="Professional Medical Accompaniment">专业医疗陪诊</h3>
+                    <p class="service-description" data-zh="持证医疗翻译口译师提供专业的陪诊服务，消除语言障碍" data-zh-tw="持證醫療翻譯口譯師提供專業的陪診服務，消除語言障礙" data-en="Certified medical interpreters provide professional accompaniment services, eliminating language barriers">
+                        持证医疗翻译口译师提供专业的陪诊服务，消除语言障碍
+                    </p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3 class="service-title" data-zh="跨国医疗协调" data-zh-tw="跨國醫療協調" data-en="Cross-border Medical Coordination">跨国医疗协调</h3>
+                    <p class="service-description" data-zh="连接加拿大、英国、中国的医疗资源，提供无缝的跨国医疗服务" data-zh-tw="連接加拿大、英國、中國的醫療資源，提供無縫的跨國醫療服務" data-en="Connecting medical resources in Canada, UK, and China for seamless cross-border medical services">
+                        连接加拿大、英国、中国的医疗资源，提供无缝的跨国医疗服务
+                    </p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-clipboard-check"></i>
+                    </div>
+                    <h3 class="service-title" data-zh="行前分诊评估" data-zh-tw="行前分診評估" data-en="Pre-triage Assessment">行前分诊评估</h3>
+                    <p class="service-description" data-zh="专业的医疗团队提供精准的行前分诊，确保医疗方案的准确性" data-zh-tw="專業的醫療團隊提供精準的行前分診，確保醫療方案的準確性" data-en="Professional medical team provides accurate pre-triage to ensure precision of medical plans">
+                        专业的医疗团队提供精准的行前分诊，确保医疗方案的准确性
+                    </p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="service-title" data-zh="隐私保护" data-zh-tw="隱私保護" data-en="Privacy Protection">隐私保护</h3>
+                    <p class="service-description" data-zh="严格遵循跨国法律与隐私合规标准，确保信息安全" data-zh-tw="嚴格遵循跨國法律與隱私合規標準，確保資訊安全" data-en="Strictly follow cross-border legal and privacy compliance standards to ensure information security">
+                        严格遵循跨国法律与隐私合规标准，确保信息安全
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title" data-zh="为什么选择 MQlinic？" data-zh-tw="為什麼選擇 MQlinic？" data-en="Why Choose MQlinic?">为什么选择 MQlinic？</h2>
+                    <p class="about-description" data-zh="MQ 由牛津大学、伦敦大学学院和不列颠哥伦比亚大学三所大学的医学精英创办，致力于以病理学与精准医疗的专业视角，为求医者构建通往顶尖医疗资源的安全、专业、高效的生命通道。" data-zh-tw="MQ 由牛津大學、倫敦大學學院和不列顛哥倫比亞大學三所大學的醫學精英創辦，致力於以病理學與精準醫療的專業視角，為求醫者構建通往頂尖醫療資源的安全、專業、高效的生命通道。" data-en="MQ was founded by medical elites from Oxford University, University College London, and University of British Columbia, dedicated to building safe, professional, and efficient access to top-tier medical resources from the professional perspective of pathology and precision medicine.">
+                        MQ 由牛津大学、伦敦大学学院和不列颠哥伦比亚大学三所大学的医学精英创办，致力于以病理学与精准医疗的专业视角，为求医者构建通往顶尖医疗资源的安全、专业、高效的生命通道。
+                    </p>
+                    
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-zh="科研级医学背景的创始团队" data-zh-tw="科研級醫學背景的創始團隊" data-en="Research-level medical background founding team">科研级医学背景的创始团队</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-zh="精准识别重症患者能力" data-zh-tw="精準識別重症患者能力" data-en="Ability to accurately identify critically ill patients">精准识别重症患者能力</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-zh="2-4小时驻地医疗响应" data-zh-tw="2-4小時駐地醫療響應" data-en="2-4 hour local medical response">2-4小时驻地医疗响应</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span data-zh="零差评服务记录" data-zh-tw="零差評服務記錄" data-en="Zero negative review service record">零差评服务记录</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <div class="about-image-placeholder">
+                        <i class="fas fa-hospital"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title" data-zh="联系我们" data-zh-tw="聯絡我們" data-en="Contact Us">联系我们</h2>
+                <p class="section-subtitle" data-zh="立即开始您的医疗管家服务之旅" data-zh-tw="立即開始您的醫療管家服務之旅" data-en="Start your medical concierge service journey now">立即开始您的医疗管家服务之旅</p>
+                
+                <div class="contact-buttons">
+                    <button class="btn btn-primary btn-large" data-zh="立即咨询" data-zh-tw="立即諮詢" data-en="Consult Now">立即咨询</button>
+                    <button class="btn btn-outline btn-large" data-zh="预约服务" data-zh-tw="預約服務" data-en="Book Service">预约服务</button>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>admin@mqlinic.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+44 07877979059</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+1 (778) 859-2813</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>MQlinic</h3>
+                    <p data-zh="顶尖医疗管家服务" data-zh-tw="頂尖醫療管家服務" data-en="Premium Medical Concierge Services">顶尖医疗管家服务</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4 data-zh="服务" data-zh-tw="服務" data-en="Services">服务</h4>
+                        <a href="#" data-zh="医疗陪诊" data-zh-tw="醫療陪診" data-en="Medical Accompaniment">医疗陪诊</a>
+                        <a href="#" data-zh="跨国协调" data-zh-tw="跨國協調" data-en="Cross-border Coordination">跨国协调</a>
+                        <a href="#" data-zh="分诊评估" data-zh-tw="分診評估" data-en="Triage Assessment">分诊评估</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4 data-zh="公司" data-zh-tw="公司" data-en="Company">公司</h4>
+                        <a href="#" data-zh="关于我们" data-zh-tw="關於我們" data-en="About Us">关于我们</a>
+                        <a href="#" data-zh="团队介绍" data-zh-tw="團隊介紹" data-en="Team">团队介绍</a>
+                        <a href="#" data-zh="联系我们" data-zh-tw="聯絡我們" data-en="Contact">联系我们</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4 data-zh="关注我们" data-zh-tw="關注我們" data-en="Follow Us">关注我们</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 MQlinic. <span data-zh="保留所有权利" data-zh-tw="保留所有權利" data-en="All rights reserved">保留所有权利</span>.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
